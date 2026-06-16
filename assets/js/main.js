@@ -1,0 +1,1 @@
+document.querySelectorAll('.card').forEach(c=>{c.style.transition='all .5s';});
