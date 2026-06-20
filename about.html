@@ -21,6 +21,7 @@
   <div class="links">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
+    <a href="about.html#contact">Contact</a>
     <a href="index.html#coming">Coming Soon</a>
   </div>
   <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
@@ -35,9 +36,36 @@
 </section>
 
 <section class="about-body reveal">
+  <figure class="portrait portrait-left">
+    <img src="assets/img/IMG-20241029-WA0234.jpg" alt="Khushbu doing a yoga pose during a trek in Central USA">
+    <div class="watermark"><img src="assets/img/logo.svg" alt=""><span>Root & Rise</span></div>
+    <!-- <figcaption class="badge">Khushbu practising yoga during a Central USA trek</figcaption> -->
+  </figure>
   <p>My journey started in science. As a PhD researcher in STEM, I learned discipline, curiosity, and resilience. Yet beyond academic achievement, I found myself drawn to practices that brought balance and meaning into everyday life.</p>
   <p>Yoga taught me how to slow down. Healthy cooking taught me how to nourish myself. Mindful routines taught me that growth doesn't have to come at the cost of wellbeing.</p>
+  <figure class="portrait portrait-right">
+    <img src="assets/img/IMG-20250427-WA0006.jpg" alt="Khushbu in a chemistry lab">
+    <div class="watermark"><img src="assets/img/logo.svg" alt=""><span>Root & Rise</span></div>
+    <!-- <figcaption class="badge">Khushbu in Chemistry Lab</figcaption> -->
+  </figure>
   <p>Root & Rise is my space to share that journey. Here you'll find reflections on wellness, yoga, nourishment, personal growth, and the ongoing process of creating a life that feels both grounded and expansive.</p>
+  <p>I welcome you all to this journey of self-realization, where we discover how to be kind, grateful and happy. </p>
+</section>
+
+<section class="moments">
+  <div class="moments-head reveal">
+    <p class="eyebrow" style="color:var(--sage-deep)">A Few Moments</p>
+    <h2>Captured Along the Way</h2>
+  </div>
+  <div class="moments-grid reveal">
+    <figure class="m m1"><img src="assets/img/IMG-20240705-WA0164.jpg" alt="Add a photo"><div class="watermark watermark-sm"><img src="assets/img/logo.svg" alt=""><span>Root & Rise</span></div></figure>
+    <figure class="m m2"><img src="assets/img/IMG-20241029-WA0048(1).jpg" alt="Add a photo"><div class="watermark watermark-sm"><img src="assets/img/logo.svg" alt=""><span>Root & Rise</span></div></figure>
+    <figure class="m m3"><img src="assets/img/20240827_111157.jpg" alt="Add a photo"><div class="watermark watermark-sm"><img src="assets/img/logo.svg" alt=""><span>Root & Rise</span></div></figure>
+    <figure class="m m4"><img src="assets/img/20240827_100512.jpg" alt="Add a photo"><div class="watermark watermark-sm"><img src="assets/img/logo.svg" alt=""><span>Root & Rise</span></div></figure>
+    <figure class="m m5"><img src="assets/img/IMG-20250527-WA0028.jpg" alt="Add a photo"><div class="watermark watermark-sm"><img src="assets/img/logo.svg" alt=""><span>Root & Rise</span></div></figure>
+    <figure class="m m6"><img src="assets/img/666350792-IMG-20210911-WA0043.jpg" alt="Add a photo"><div class="watermark watermark-sm"><img src="assets/img/logo.svg" alt=""><span>Root & Rise</span></div></figure>
+    <figure class="m m7"><img src="assets/img/PXL_20240225_200612208.jpg" alt="Add a photo"><div class="watermark watermark-sm"><img src="assets/img/logo.svg" alt=""><span>Root & Rise</span></div></figure>
+  </div>
 </section>
 
 <section class="ethos">
@@ -53,13 +81,48 @@
   </div>
 </section>
 
+<section class="contact reveal" id="contact">
+  <div class="contact-inner">
+    <p class="eyebrow" style="color:var(--terracotta-deep)">Get in Touch</p>
+    <h2>Say Hello</h2>
+    <p class="lead">Questions, collaboration ideas, or just want to connect? Send a message and I'll get back to you personally.</p>
+
+    <!--
+      IMPORTANT — before this form will deliver mail, sign up free at
+      https://formspree.io with rootandrisebykhushbu@gmail.com, create a
+      form, and replace YOUR_FORM_ID below with the ID Formspree gives you
+      (the URL will look like https://formspree.io/f/abcd1234).
+    -->
+    <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input class="hp-field" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="_subject" value="New message from the Root & Rise website">
+
+      <div class="field">
+        <label for="cf-name">Name</label>
+        <input type="text" id="cf-name" name="name" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="cf-email">Email</label>
+        <input type="email" id="cf-email" name="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" required></textarea>
+      </div>
+
+      <button class="btn" type="submit">Send Message →</button>
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
 <footer>
   <img class="footer-mark" src="assets/img/logo.svg" alt="">
   <div class="social">
-    <a href="#" aria-label="Instagram — coming soon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17" cy="7" r="1"/></svg></a>
-    <a href="#" aria-label="YouTube — coming soon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M11 9.5l5 2.5-5 2.5v-5z"/></svg></a>
+    <a href="https://www.instagram.com/rootandrisebykhushbu/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17" cy="7" r="1"/></svg></a>
+    <a href="https://www.youtube.com/@RootandRisebyKhushbu" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M11 9.5l5 2.5-5 2.5v-5z"/></svg></a>
   </div>
-  <p class="fine">Instagram & YouTube — coming soon</p>
+  <p class="fine">Join the journey on <a href="https://www.youtube.com/@RootandRisebyKhushbu" target="_blank" rel="noopener noreferrer">YouTube</a> & <a href="https://www.instagram.com/rootandrisebykhushbu/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
   <p class="copyright">© 2026 Root & Rise by Khushbu</p>
 </footer>
 
